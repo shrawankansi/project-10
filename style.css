@@ -22,7 +22,8 @@ body{
 .navbar ul li{
     font-size: 20px;
     list-style: none;
-    color: #fff;
+    font-weight: bold;
+    color: rgb(11, 109, 189);
 }
 .navbar span{
     position: absolute;
@@ -30,7 +31,7 @@ body{
     margin-left: 360px;
     width: 760px;
     height: 2px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(184, 133, 133);
 }
 .center_element{
     margin-top: 170px;
@@ -41,12 +42,12 @@ body{
     font-size: 60px;
     align-items: center;
     width: 550px;
-    color: #fff;
+    color: rgb(4, 173, 165);
 }
 .center_element button{
     background-color: #D4D3D1;
-    color: #fff;
-    border-color: #fff;
+    color: rgb(231, 164, 164);
+    border-color: rgb(221, 146, 146);
     padding: 20px 40px;
     border-radius: 25px;
     margin-left: 40px;
@@ -153,5 +154,8 @@ body{
     .special-box2{
         margin-left: 100px;
         margin-top: 200px;
+    }
+    .call-us{
+        display: none;
     }
 }
